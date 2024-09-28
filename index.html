@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind and daisy ui -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- login form -->
+    <section id="login-page" class="section-container">
+
+        <div style="border-radius: 50px;">
+            <div class="gap"
+                style="background-color:#f0f3f0; display: flex; align-items: center; justify-content: flex-start; gap: 300px; padding: 10px; border-top-left-radius: 30px; border-top-right-radius: 30px; ">
+                <div style="margin-left: 15px;"><span style="color:red; margin-right: 5px; "><i
+                            class="fa-solid fa-circle "></i></span><span style="color: orange; margin-right: 5px;"><i
+                            class="fa-solid fa-circle "></i></span><span style="color: green; margin-right: 5px;"><i
+                            class="fa-solid fa-circle "></i></span></div>
+                <h1
+                    style="background-color:#f9f9f9; padding: 2px;width: 400px; text-align: center; border-radius: 30px; font-size: 12px; font-weight: 600;">
+                    <i class="fa-solid fa-lock"></i> My mortgage-registation.com
+                </h1>
+            </div>
+            <div class="section1">
+
+                <div class="main-container">
+                    <div class="header-container">
+
+                        <div class="header-left">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNHiFklaP5bH_mDu7LqPc-BY3hhJ05hmQiR17-cRwUPG3dOwH0h7pzJrgMHopaO_6l6GM&usqp=CAU"
+                                alt="">
+                            <h1 style="font-size: 16px; font-weight: 700;">REGION <br>
+                                <p style="font-size: 8px; font-weight: 700;">MORTGAGE</p>
+                            </h1>
+                        </div>
+                        <div class="header-right">
+                            <p>Are you a new customer?</p>
+                            <button>Enroll now</button>
+                        </div>
+                    </div>
+
+
+
+                    <form class="form" action="#">
+                        <div class="welcome-container">
+                            <h1 class="welcome-title">Welcome Back</h1>
+                            <p style="font-size: 16px; font-weight: 500;" class="welcome-message">Sign in to your
+                                registration mortgage
+                                account
+                            </p>
+                        </div>
+                        <input class="inpute" placeholder="Online Id" type="text">
+
+                        <div class="password-container">
+                            <input class="inpute" type="password" id="password" placeholder="Password ">
+
+                            <div class="password-placeholder">
+                                <p class="show-password">Show</p>
+                            </div>
+                        </div>
+
+
+                        <div class="checkbox-div">
+                            <input class="checkbox" type="checkbox">
+                            <p style="font-size: 15px; font-weight: 400;">Remember Me</p>
+                        </div>
+
+                        <button id="login-btn"
+                            style=" background-color: rgb(8, 153, 8);color: white; font-size: 16px; font-weight: 500;"
+                            class="btn">Login</button>
+
+                        <div class="forgot-container">
+                            <p class="forgot-item">Forgot online ID</p>
+                            <p class="forgot-item">Forgot password</p>
+                        </div>
+
+                    </form>
+                    <div class="footer-container">
+                        <p style="font-size: 13px;"><i class="fa-solid fa-house"></i>Equel Housing lender - Member FDIC
+                        </p>
+                        <p style="font-size: 13px;">Rigions Financial Corporation. <span style="color: green;"> All
+                                rights reserved © 2023 .</span></p>
+                    </div>
+
+
+                </div>
+                <div>
+                    <img class="image"
+                        src="https://i.ibb.co.com/CJ5ddSC/beautiful-modern-house-cement-view-from-garden.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- <div id="image-page" style="display: none; position: relative;">
+        <img src="https://i.ibb.co.com/CJ5ddSC/beautiful-modern-house-cement-view-from-garden.jpg" alt="Welcome Image"
+            id="welcome-image" style="width: 100%; height: auto;">
+        <button id="back-to-login-btn"
+            style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 10px 20px;">Back
+            to Login</button>
+    </div> -->
+    <div id="image-page" class="page" style="display: none; position: relative; width: 1070px; margin: auto;">
+        <img src="https://i.ibb.co.com/CJ5ddSC/beautiful-modern-house-cement-view-from-garden.jpg" alt="Welcome Image"
+            id="welcome-image" style="width: 100%; height: auto;">
+        <button id="back-to-login-btn" class="btn-center">Back to Login</button>
+    </div>
+
+
+    <script src="javaScript.js"></script>
+
+</body>
+
+</html>
